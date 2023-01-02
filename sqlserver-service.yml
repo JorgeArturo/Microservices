@@ -9,7 +9,7 @@ spec:
   type: LoadBalancer
   ports:
     - port: 1433
-      targetport: 1433
+      targetPort: 1433
   selector:
     app: microservice-seguridad
     name: mssql-pod
